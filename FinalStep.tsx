@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function FinalStep({ saldo }: { saldo: number }) {
   return (
     <div className="flex flex-col items-center justify-center p-4 text-white bg-[#9B1454] min-h-screen">
@@ -26,7 +24,7 @@ export default function FinalStep({ saldo }: { saldo: number }) {
       </div>
 
       <div className="my-6">
-        <Image
+        <img
           src="/bemlabs_fraco.png"
           alt="Bem+ Beta Imune"
           width={160}
